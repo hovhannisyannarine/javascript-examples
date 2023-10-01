@@ -7,3 +7,6 @@ Function
    returned. Example: addTo(3) should return 1+2+3 = 6.
 3. Write a function mean that accepts an array filled with numbers and 
    returns the arithmetic mean of those numbers.
+4. Write a JavaScript function to convert a binary number to a decimal number.
+5. Write a JavaScript function to convert a decimal number to a binary, hexadecimal or octal number.
+6. Write a JavaScript function to generate a random integer
