@@ -1,3 +1,4 @@
+console.log('Functions');
 //1.
 function addElement(arr,element) {
     if (!arr.indexOf(element)) {
@@ -17,13 +18,13 @@ function addTo(number) {
             : number + addTo(number - 1);
 }
 
-console.log(addTo(5));
+console.log(`Factorial with using the sum:  ${addTo(5)}`);
 
 //3.
 function meanNumbers(arr) {
     return arr.reduce((sum, num) => sum + num, 0) / arr.length;
 }
-console.log(meanNumbers([1,2,3,4,5]));
+console.log(`Mean of those numbers: ${meanNumbers([1, 2, 3, 4, 5])}`);
 //4.
 const otherTypeToDecimal = (binary,x) => parseInt(binary,x);
 console.log(otherTypeToDecimal('1010',2));
