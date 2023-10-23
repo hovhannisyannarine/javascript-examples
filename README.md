@@ -18,3 +18,7 @@ Classes
   name and salary. Include a method to calculate annual salary. Create a subclass called
   'Manager' that inherits from the 'Employee' class and adds a property for 
   department. Override the annual salary calculation method to include bonuses for managers․
+
+Object
+1. Create an object which should have the key changeToUpperCase as setter/getter that should 
+   receive the text in lowercase and change to uppercase when we receive it.
