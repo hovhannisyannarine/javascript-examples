@@ -22,3 +22,15 @@ Classes
 Object
 1. Create an object which should have the key changeToUpperCase as setter/getter that should 
    receive the text in lowercase and change to uppercase when we receive it.
+2. Create an object named product that should contain the keys name,price and getTotalPrice.
+   The getTotalPrice method should take two parameters - quantity and discount, and must 
+   return the text: 
+   '''For example, "You ordered two products.
+      The total price without a
+      discount is $150
+      and with a discount of $70".
+   '''
+3. Create an object with nested objects and arrays. Use JSON.stringify to serialize the object into a JSON string.
+4. Create an object with properties temperatureCelsius and unit.
+   Convert the temperature to Fahrenheit if the unit is "C" and 
+   vice versa. Print the converted temperature.
